@@ -6,7 +6,7 @@
  width: 100%;
 } 
 .homeimage { 
-  background-image: url(https://jingdaily.com/wp-content/uploads/2020/03/International-1.jpg);
+  background-image: url(https://claudia.abril.com.br/wp-content/uploads/2022/03/GettyImages-1300190869.jpg);
   height: 80vh;
   width: 100%;
   background-attachment: fixed;
@@ -15,63 +15,92 @@
   background-size: cover;
   
 }
+
+.sign-upimage2 { 
+  background-image: url(https://i.pinimg.com/originals/a3/c0/d5/a3c0d5bba295a152198f2aa693cdc6af.gif);
+  height: 80vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+ .footer { 
+    color: white; 
+  }
+
+
 .ivorybackground {
-  background-color: ivory; 
+  background-color: white; 
 }
 hr.dashed {
    border-top: 3px dashed #bbb;
 }
 
 .salmonbackground {
-  background-color:#ffbeb4 ; 
+  background-color:#ffbeb4; 
+   
 }
 
 .hometitletext {  
-  padding: 2%;
+  padding: 1%;
   color: #0064b4;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 40px;
   text-align: center;
+  
 }
 
 .container-title {  
-  display: absolute; /* Set the flexbox display */
-  flex-direction: row; /* Configure the flex items to row */
-  flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
-  align-items: center; /* Align the flex items to the center */
+  display: absolute; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
 
   /* Design properties */
-  background-color: #FFFFF0;
-  padding: 5px;
+  background-color: white;
+  padding: 2px;
   
   /* Positioning properties */
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 30%; /* Change this value to move the box up or down */
+  top: 30%; 
 }
 
+
 .introtext {
-  background-color: #ffbeb4; /* Add your own background color */
+  background-color:#FFD4CD ; /* #dceff2 */ 
   padding: 4%;
   margin: 3%;
-  color: black; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; /* Adds space between lines #0064b4*/
   text-align: center;
 }
 .footer {
 			padding: 20px;
 			text-align: center;
-			background: #0064b4;
+			background:#0064b4 ;
 		}
 
 /* PARALLAX SCROLLING BEGINGS */ 
 .scrolleffect1 {
-  background-image: url("https://www.artmajeur.com/medias/standard/v/o/vova-portret-pofoto/artwork/11302490_.jpg");
+  background-image: url("https://media.newyorker.com/photos/5909772a8b51cf59fc423387/master/pass/cover_160606_1200x1638.gif ");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+
+.scrolleffect6 {
+  background-image: url("https://media.newyorker.com/photos/5c2fbecca23f7a2cc1a7cdfb/master/w_2560%2Cc_limit/parini_reading_small.gif");
   height: 100vh;
   width: 100%;
   background-attachment: fixed;
@@ -101,7 +130,6 @@ hr.dashed {
   background-size: cover;
   
   
-  
 }
 
 .scrolleffect4 {
@@ -114,7 +142,6 @@ hr.dashed {
   background-size: cover;
  
   
-  
 }
 
 .scrolleffect5 {
@@ -126,33 +153,39 @@ hr.dashed {
   background-repeat: no-repeat;
   background-size: cover;
   
-  
-  
 }
+
+
+@media only screen and (max-width:700px) {
+  .scrolleffect5, .scrolleffect4, .scrolleffect3, .scrolleffect2, .scrolleffect1, .scrolleffect6 {
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: none;
+    background-size: inherit; 
+  }
+}
+
 
 .text-section {
   background-color: white;
   padding: 5px 0px;
   margin: 0px;
-  margin-top: 30px;
   text-align: center;
+  box-shadow: 5px 10px 18px black;
 }
 
 body, html {
-  height: 100%;
+ 
   font-size: 20px;
   line-height: 1.5em;
   margin: 0em;
   color: black; 
-  background-color:  white; 
+  background-color: white ; 
   box-sizing: border-box;
 }
 
-.piechartformat { 
- border-style: solid; 
- border-width: 10px; 
- border-color: red; 
-}
 
 
 /* FOR THE CARDS OUTLINE */ 
@@ -195,7 +228,10 @@ body, html {
 }
 
 ul li:hover {
-  background: #fdfaff; }
+  background:  #88CEDA;
+
+}
+
 .lightblue { 
   background-color: #f0f3ff; 
   border: 2px solid #f0f3ff;
@@ -244,6 +280,7 @@ h4 {
   font-family: "Lato";
   font-weight: 10%; 
   font-size: 20px;
+  color: black; 
   
 }
 
@@ -275,6 +312,42 @@ cardtext  {
    font-family: "Arial";
 }
 
-.background { 
-  background-color: #d9ffed; 
+.background {  
+  width: 100%;
+  overflow: hidden; 
 }
+
+
+.background1 {
+
+ background-color: white; 
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+
+}
+
+.introbuttons {
+  background-color: white;  
+  color: black; 
+  font-size: 20px; 
+  text-align: center;
+  display: flex; 
+  justify-content: space-around;
+  padding: 2%;
+
+
+  
+   }  
+
+  @media screen and (max-width: 760px) { 
+ .introbuttons { 
+ 	display:inline-block;
+  justify-content: space-between; 
+  padding: 5%;
+ } 
+
+
+    
+  } 
+
