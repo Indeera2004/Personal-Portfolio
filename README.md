@@ -11,6 +11,11 @@ https://www.sidnet.org/content/uploads/2021/01/The_simple_truth_about_the_g.pdf
 
 All media used is either from unsplash (creative commons license) or google. This website has purely educational and recreational purposes. 
 
+
+## Google's Application Programming Interface (API)  
+
+On the action.html page, a Google API is used to display a world map and allow users to navigate in the map. The API implementation is free of cost and the website does not operate behind a firewall (open access). The API allows this website to access and communicate with Google's mapping data, displaying the map on the website for users to see. 
+
 ## Licenses (For Bootstrap): 
 
 The MIT License (MIT)
