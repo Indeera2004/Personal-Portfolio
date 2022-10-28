@@ -106,52 +106,8 @@
                   what men made. Asian women had the smallest wage gap with being paid a high of 85% of what the common white man made. Age contributes just as significantly;
                   women between the ages of 20-24 were paid 90% of what men were paid but women aged from 55-64 were paid 74% as much as men. 
                </p>
-               <button class="btn btn-primary bargraph" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" >Bar Graph</button>
-               <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                  <div class="offcanvas-header">
-                     <h6 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Specific Data </h6>
-                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                     <div class = "babyblue">
-                        <h5>
-                        This data was taken from the World Economic Forum Website and precisely depicts the difference in earnings based on ethnicity. Hover over the bar graph to see the percentage values! 
-                     </div>
-                     <script type="text/javascript" src="scrips.js"></script>
-                     <div id="chart_div"></div>
-                     <script> 
-                        google.charts.load('current', {packages: ['corechart', 'bar']});
-                        google.charts.setOnLoadCallback(drawBasic);
-                        
-                        function drawBasic() {
-                        
-                        var data google.visualization.arrayToDataTable([
-                          ['Ethnicity', 'Percentage',  { role: 'style' }],
-                          ["White Men", 100,'#efe4f5'],            // RGB value
-                          ['Asian Women', 84,'#7cebb7'],            // English color name
-                          ['White Women', 75, 'blue'],
-                           ['Black Women', 60, 'darkturquoise'],
-                        ['Hispanic Women', 55,'color: #dceff2' ], // CSS-style declaration
-                        ]);
-                        
-                        var options = {
-                         title: "Women's Earnings Compared to White Men", 
-                         width: 350,
-                         height: 400,
-                         bar: {groupWidth: "95%"},
-                         legend: { position: "none" },
-                         hAxis: {
-                           title: 'Ethnicity',} 
-                         
-                          } 
-                        
-                        var chart = new google.visualization.ColumnChart(
-                         document.getElementById('chart_div'));
-                        
-                        chart.draw(data, options);
-                        } 
-                        
-                     </script> 
+       
+                     
                      <div class = "babyblue">
                         <h5> Link to  <a href =  "https://www.weforum.org/agenda/2017/03/these-5-charts-show-how-big-the-pay-gap-is-between-men-and-women/"> data </a> </h5>
                      </div>
