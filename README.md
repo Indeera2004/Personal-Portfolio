@@ -7,7 +7,7 @@ This is a personal project of mine that aims to promote community awareness of w
 https://www.sidnet.org/content/uploads/2021/01/The_simple_truth_about_the_g.pdf
 
 
-##Images & Media 
+## Images & Media 
 
 All media used is either from unsplash (creative commons license) or google. This website has purely educational and recreational purposes. 
 
