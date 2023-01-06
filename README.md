@@ -1,6 +1,6 @@
 # Personal Project Wage Gap Website 
 
-link: https://indeera2004.github.io/Wage-Gap-Website/index.html
+link: https://indeerasaha.github.io/Wage-Gap-Website/index.html
 
 This is a personal project of mine that aims to promote community awareness of wage gaps in today's job market. The organization in the website is completely fictional and information is taken from a variety of internet resources including a primary source of "The Simple Truth about the Gender Pay Gap" by the American Assocation of University Women: 
 
