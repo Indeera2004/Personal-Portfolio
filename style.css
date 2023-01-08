@@ -64,7 +64,6 @@ hr.dashed {
   background-color: white;
   padding: 2px;
   
-  /* Positioning properties */
   position: absolute;
   left: 20%;
   right: 20%;
@@ -111,7 +110,7 @@ hr.dashed {
 }
 
 .scrolleffect2 {
-  background-image: url("https://1ii65ybkkbx4be3w81ausxw1-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Lobaz-SheWolf_annalisafeliz_The-Wrap_WMEmpowerment-1.png");
+  background-image: url("https://artfiles.alphacoders.com/119/119218.jpg");
    height: 100vh;
   width: 100%;
   background-attachment: fixed;
